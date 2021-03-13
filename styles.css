@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.body-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-wrapper {
+    padding: 20px;
+    width: 90%;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.navigation {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-link {
+  display: inline;
+  padding: 15px 10px;
+}
+
+a {
+    text-decoration: none;
+}
