@@ -12,24 +12,26 @@
 }
 
 .footer {
+  background: #f2f2f2;
   position: fixed;
   bottom: 0;
   display: inline-flex;
   justify-content: space-between;
+  left: 0;
   width: 100%;
 }
 
 .search-wrapper {
-    padding: 20px;
-    width: 90%;
+  padding: 20px;
+  width: 90%;
 }
 
 .search-bar {
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    height: 44px;
-    width: 100%;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  width: 100%;
 }
 
 .navigation {
@@ -45,5 +47,5 @@
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
